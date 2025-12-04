@@ -12,6 +12,33 @@ ul {
 }
 
 li {
-font-size: 1,5rem;
+    font-size: 1, 5rem;
 
+}
+
+.menu {
+    display: flex;
+}
+
+a:hover {
+    color: hsl(0%, 100%, 40%);
+}
+
+a,
+a:link {
+    color: hsl(0%, 100%, 60%);
+    text-decoration: none;
+}
+
+a:visited {
+    color: hsl(0%, 100%, 40%);
+}
+
+a:hover,
+:focus {
+    color: hsl(0, 100%, 40%);
+}
+
+a:active {
+    color: hsl(0, 100%, 60%);
 }
